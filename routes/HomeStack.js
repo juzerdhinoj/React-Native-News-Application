@@ -20,6 +20,7 @@ const screens ={
         screen: ArticleWebScreen,
         navigationOptions: {
             //how do i get this to be the title of the article?
+            // Try setting navigation options directly from the component where you're using '.navigate()' function
             title: ''
         }
     },
@@ -27,6 +28,7 @@ const screens ={
         screen: ArticleDetailsScreen,
         navigationOptions: {
             //how do i get this to be the title of the news source?
+            // Try setting navigation options directly from the component where you're using '.navigate()' function
             title: ''
         }
     },
